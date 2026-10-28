@@ -20,7 +20,10 @@
 <body>
   <header class="topbar">
     <a class="brand" href="./" aria-label="Jet Lag: The Game home"><img class="brand-logo" src="./jetlag.png" alt="Jet Lag: The Game"></a>
-    <button id="installButton" class="install-button" type="button" aria-label="Install Jet Lag: The Game">Install app <span aria-hidden="true">↗</span></button>
+    <div class="header-actions">
+      <button id="resetGameButton" class="reset-game-button" type="button" aria-label="Reset game">Reset game</button>
+      <button id="installButton" class="install-button" type="button" aria-label="Install Jet Lag: The Game">Install app <span aria-hidden="true">↗</span></button>
+    </div>
   </header>
   <main id="app" class="shell"><div class="loading">Loading your game…</div></main>
   <div id="modalRoot"></div>

@@ -141,6 +141,17 @@ render();
 // Installable PWA support. The ordinary website remains fully usable in a browser.
 let pendingInstallPrompt = null;
 const installButton = $("#installButton");
+const resetGameButton = $("#resetGameButton");
+if (resetGameButton) {
+  resetGameButton.addEventListener("click", () => {
+    if (!confirm("Reset the entire game? This will clear the current team's progress, coins, challenges, and round history on this device.")) return;
+    state = fresh();
+    save();
+    render();
+    toast("Game reset. Start a new game when you're ready.");
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+}
 window.addEventListener("beforeinstallprompt", event => {
   event.preventDefault();
   pendingInstallPrompt = event;

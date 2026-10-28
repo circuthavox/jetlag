@@ -9,11 +9,6 @@ A mobile-first static website for GitHub Pages. It uses no GPS, no journey-plann
 - `jetlag.png` — full logo
 - `jetlag_favicon.jpg` — favicon and challenge-card animation artwork
 
-## Publish on GitHub Pages
-1. Upload all files to the root of your repository.
-2. Open **Settings → Pages**.
-3. Select **Deploy from a branch**, choose `main` and `/(root)`, then save.
-
 ## Gameplay notes
 - Each phone is a private dashboard for one team. Coins, challenge count, travel minutes, veto countdown and round state are stored in that browser.
 - Select **Runners** to receive a destination landmark, or **Chasers** to hide the destination.

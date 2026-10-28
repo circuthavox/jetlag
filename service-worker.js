@@ -1,4 +1,4 @@
-const CACHE_NAME = "jetlag-pwa-v1";
+const CACHE_NAME = "jetlag-pwa-v4";
 const APP_SHELL = [
   "./",
   "./index.html",

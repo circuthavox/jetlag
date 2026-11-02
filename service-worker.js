@@ -1,9 +1,10 @@
-const CACHE_NAME = "jetlag-pwa-v4";
+const CACHE_NAME = "jetlag-pwa-v5";
 const APP_SHELL = [
   "./",
   "./index.html",
   "./styles.css",
   "./app.js",
+  "./challenges.js",
   "./manifest.webmanifest",
   "./jetlag.png",
   "./jetlag_favicon.jpg",
